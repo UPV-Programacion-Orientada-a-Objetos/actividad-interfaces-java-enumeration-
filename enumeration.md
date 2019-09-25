@@ -1,5 +1,7 @@
 # Interface Enumeration
 ### java.util.enumeration
+
+### Ana Lizbeth Hernández López, Beatriz Guadalupe Hernández Rodríguez, Jesus Alfredo Andrio Rodríguez y Rebeca Gonzalez Batista
  --------
  --------
 
@@ -11,16 +13,16 @@ Sin emabrgo algunos métodos definidos por clases heredadas hacen uso de esta in
 
 Los métodos declarados por java.util.enumeration son:
 
- 
- Método | Desrcipción
+  Método | Desrcipción
 ------------- | -------------
+boolean hasMoreElements() | Cuando se implementa, debe devolver verdadero mientras todavía hay más elementos para extraer, y falso cuando se han enumerado todos los elementos.
+Object nextElement()  | Devuelve una referencia a objeto genérica, cuyo tipo hay que convertir al tipo de clase de la cual el objeto es una instancia.
 
 
-boolean hasMoreElements() |  Cuando se implementa, debe devolver verdadero mientras todavía hay más elementos para extraer, y falso cuando se han enumerado todos los elementos.
-Object nextElement()  |  Devuelve una referencia a objeto genérica, cuyo tipo hay que convertir al tipo de clase de la cual el objeto es una instancia.
 
+----
 
---------
+ 
  
  ## Ejemplo 1
 ```javasfx
@@ -49,7 +51,7 @@ public class Main {
 
 ```
 -----
-------
+
 ## Ejemplo 2
 
 ```javasfx
