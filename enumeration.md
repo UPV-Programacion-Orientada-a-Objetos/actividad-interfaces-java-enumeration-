@@ -7,9 +7,8 @@
 
   
  Enumeration es un interfaz simple que define los métodos por los cuales puede enumerar (obtener uno a la vez) los elementos en una colección de objetos. Permite enumerar todos los elementos de cualquier conjunto de objetos. 
-Aunque esta interfaz no está en desuso, la enumeración se considera obsoleta para el nuevo código ya que ha sido reemplazada por otras interfaces como Iterator.
-
-Sin emabrgo algunos métodos definidos por clases heredadas hacen uso de esta interfaz, como Vector y Propiedades, se usa por varias otras clases de API y actualmente se usa ampliamente en el código de la aplicación.
+ 
+Aunque esta interfaz no está en desuso, la enumeración se considera obsoleta para el nuevo código ya que ha sido reemplazada por otras interfaces como Iterator. Sin embargo algunos métodos definidos por clases heredadas hacen uso de esta interfaz, como Vector y Propiedades, se usa por varias otras clases de API y actualmente se usa ampliamente en el código de la aplicación.
 
 Los métodos declarados por java.util.enumeration son:
 
